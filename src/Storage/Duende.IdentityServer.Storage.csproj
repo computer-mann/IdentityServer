@@ -17,6 +17,7 @@
     <ItemGroup>
         <PackageReference Include="IdentityModel" Version="7.0.0" />
         <PackageReference Include="Microsoft.AspNetCore.DataProtection.Abstractions" Version="8.0.10" />
+        <PackageReference Include="System.Text.Json" Version="8.0.5" />
     </ItemGroup>
 
     <ItemGroup>

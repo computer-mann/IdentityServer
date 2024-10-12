@@ -40,7 +40,7 @@
         <!-- These two dependencies should hopefully be removed in a future release. 
              The dotnet 9.0-rc.1 version of some of the EF packages has transitive 
              dependnecies with vulnerabilites -->
-        <PackageReference Include="System.Text.Json" />
+        <PackageReference Include="System.Text.Json" Version="8.0.5" />
         <PackageReference Include="System.Drawing.Common" />
     </ItemGroup>
     

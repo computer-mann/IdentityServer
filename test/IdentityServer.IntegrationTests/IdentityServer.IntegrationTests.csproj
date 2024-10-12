@@ -13,6 +13,7 @@
         <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="8.0.10" />
         <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.1.2" />
         <PackageReference Include="AngleSharp" />
+        <PackageReference Include="System.Text.Json" Version="8.0.5" />
         <PackageReference Include="xunit" Version="2.9.2" />
         <PackageReference Include="xunit.runner.visualstudio" PrivateAssets="All" Version="2.8.2" />
         <PackageReference Include="FluentAssertions" Version="6.12.1" />
