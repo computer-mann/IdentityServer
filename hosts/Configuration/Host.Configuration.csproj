@@ -8,6 +8,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <AnalysisMode>all</AnalysisMode>
+        <WarningsAsErrors>false</WarningsAsErrors>
     </PropertyGroup>
 
     <ItemGroup>

@@ -11,7 +11,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <None Include="README.md" Pack="true" PackagePath=""/>
+        <None Include="README.md" Pack="true" PackagePath="" />
     </ItemGroup>
 
     <ItemGroup>
@@ -21,6 +21,7 @@
     <ItemGroup>
       <PackageReference Include="IdentityModel" />
       <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" />
+      <PackageReference Include="System.Text.Json" Version="8.0.5" />
     </ItemGroup>
 
     <ItemGroup>
