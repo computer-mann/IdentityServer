@@ -5,13 +5,17 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" PrivateAssets="All" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" PrivateAssets="All" Version="8.0.10" />
         <PackageReference Include="System.Text.Json" Version="8.0.5" />
     </ItemGroup>
 
     <ItemGroup>
         <ProjectReference Include="..\..\hosts\AspNetIdentity\Host.AspNetIdentity.csproj" />
         <ProjectReference Include="..\..\src\AspNetIdentity\Duende.IdentityServer.AspNetIdentity.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Update="MinVer" Version="6.0.0" />
     </ItemGroup>
 
 </Project>

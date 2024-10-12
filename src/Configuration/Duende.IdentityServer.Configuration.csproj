@@ -19,13 +19,17 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="IdentityModel" />
-      <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" />
+      <PackageReference Include="IdentityModel" Version="7.0.0" />
+      <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="8.1.2" />
       <PackageReference Include="System.Text.Json" Version="8.0.5" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\Storage\Duende.IdentityServer.Storage.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Update="MinVer" Version="6.0.0" />
     </ItemGroup>
 
 </Project>
