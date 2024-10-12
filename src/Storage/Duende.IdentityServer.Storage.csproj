@@ -11,12 +11,16 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <None Include="README.md" Pack="true" PackagePath=""/>
+        <None Include="README.md" Pack="true" PackagePath="" />
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="IdentityModel" />
-        <PackageReference Include="Microsoft.AspNetCore.DataProtection.Abstractions" />
+        <PackageReference Include="IdentityModel" Version="7.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.DataProtection.Abstractions" Version="8.0.10" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Update="MinVer" Version="6.0.0" />
     </ItemGroup>
 
 </Project>
