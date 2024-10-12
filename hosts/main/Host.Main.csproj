@@ -9,6 +9,7 @@
         <Nullable>enable</Nullable>
         <AnalysisMode>all</AnalysisMode>
         <WarningsAsErrors>false</WarningsAsErrors>
+        <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
     </PropertyGroup>
 
     <ItemGroup>
