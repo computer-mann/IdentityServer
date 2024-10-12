@@ -2,6 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
+        <WarningsAsErrors>false</WarningsAsErrors>
     </PropertyGroup>
 
     <ItemGroup>
